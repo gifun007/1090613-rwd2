@@ -1,0 +1,37 @@
+body{
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.h-30 {
+  height: 700px !important;
+}
+mark{
+  
+}
+#1.nav-item{    /* 若無#1 則字會變直向*/
+  flex:0 1 14%
+}
+#myf{
+  background: 
+    url("https://picsum.photos/1920/1080/?random=1"),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.8) 0%,
+      rgba(63,202,255,0.8) 40%,
+      rgba(51,143,190,0.8) 60%,
+      rgba(255,255,255,0.8) 100%
+    );
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  text-shadow: #333 0.3rem 0.3rem 0.5rem;
+}
+@media (min-width: 992px) {
+  #myf li.col-lg-6:nth-of-type(even) img {
+    order: 1;
+  }
+}
+#myt iframe{
+  filter: brightness(0.5);
+}
